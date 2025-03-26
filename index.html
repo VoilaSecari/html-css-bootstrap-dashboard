@@ -5,6 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
 
+    <!-- FONTAWESOME -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
     <!-- BOOTSTRAP -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
@@ -53,6 +62,256 @@
         </div>
       </div>
     </nav>
+
+    <!-- BODY -->
+
+    <div class="container">
+      <div class="d-flex justify-content-between pt-4 pb-4">
+        <h3 class="display-6">Catalogo Libri</h3>
+        <button class="btn btn-primary">Aggiungi Libro</button>
+      </div>
+
+      <!-- TABELLA -->
+      <div class="row">
+        <div class="col-lg-8">
+          <table class="table table-striped">
+            <thead>
+              <tr>
+                <th scope="col">Titolo</th>
+                <th scope="col">Data prestito</th>
+                <th scope="col">Stato</th>
+                <th scope="col">Azioni</th>
+              </tr>
+            </thead>
+            <tbody>
+              <!-- LINEA 1 -->
+              <tr>
+                <td><p class="fw-lighter">I pilastri della terra</p></td>
+                <td><p class="fw-lighter">-</p></td>
+                <td>
+                  <button class="btn btn-success py-1 btn-sm">
+                    Disponibile
+                  </button>
+                </td>
+                <td>
+                  <button class="btn btn-outline-secondary">
+                    <i class="fa-solid fa-pencil"></i>
+                  </button>
+                  <button class="btn btn-outline-secondary">
+                    <i class="fa-solid fa-trash"></i>
+                  </button>
+                </td>
+              </tr>
+              <!-- LINEA 2 -->
+              <tr>
+                <td><p class="fw-lighter">I promessi sposi</p></td>
+                <td><p class="fw-lighter">-</p></td>
+                <td>
+                  <button class="btn btn-success py-1 btn-sm">
+                    Disponibile
+                  </button>
+                </td>
+                <td>
+                  <button class="btn btn-outline-secondary">
+                    <i class="fa-solid fa-pencil"></i>
+                  </button>
+                  <button class="btn btn-outline-secondary">
+                    <i class="fa-solid fa-trash"></i>
+                  </button>
+                </td>
+              </tr>
+              <!-- LINEA 3 -->
+              <tr>
+                <td><p class="fw-lighter">Il signore degli anelli</p></td>
+                <td><p class="fw-lighter">18/10/2023</p></td>
+                <td>
+                  <button class="btn btn-warning text-white py-1 btn-sm">
+                    In prestito
+                  </button>
+                </td>
+                <td>
+                  <button class="btn btn-outline-secondary">
+                    <i class="fa-solid fa-pencil"></i>
+                  </button>
+                  <button class="btn btn-outline-secondary">
+                    <i class="fa-solid fa-trash"></i>
+                  </button>
+                </td>
+              </tr>
+              <!-- LINEA 4 -->
+              <tr>
+                <td>
+                  <p class="fw-lighter">Harry Potter e la pietra filosofale</p>
+                </td>
+                <td><p class="fw-lighter">-</p></td>
+                <td>
+                  <button class="btn btn-success py-1 btn-sm">
+                    Disponibile
+                  </button>
+                </td>
+                <td>
+                  <button class="btn btn-outline-secondary">
+                    <i class="fa-solid fa-pencil"></i>
+                  </button>
+                  <button class="btn btn-outline-secondary">
+                    <i class="fa-solid fa-trash"></i>
+                  </button>
+                </td>
+              </tr>
+              <!-- LINEA 5 -->
+              <tr>
+                <td><p class="fw-lighter">Il codice Da Vinci</p></td>
+                <td><p class="fw-lighter">-</p></td>
+                <td>
+                  <button class="btn btn-danger py-1 btn-sm">
+                    Non disponibile
+                  </button>
+                </td>
+                <td>
+                  <button class="btn btn-outline-secondary">
+                    <i class="fa-solid fa-pencil"></i>
+                  </button>
+                  <button class="btn btn-outline-secondary">
+                    <i class="fa-solid fa-trash"></i>
+                  </button>
+                </td>
+              </tr>
+              <!-- LINEA 6 -->
+              <tr>
+                <td><p class="fw-lighter">Shining</p></td>
+                <td><p class="fw-lighter">-</p></td>
+                <td>
+                  <button class="btn btn-success py-1 btn-sm">
+                    Disponibile
+                  </button>
+                </td>
+                <td>
+                  <button class="btn btn-outline-secondary">
+                    <i class="fa-solid fa-pencil"></i>
+                  </button>
+                  <button class="btn btn-outline-secondary">
+                    <i class="fa-solid fa-trash"></i>
+                  </button>
+                </td>
+              </tr>
+              <!-- LINEA 7 -->
+              <tr>
+                <td><p class="fw-lighter">La divina commedia</p></td>
+                <td><p class="fw-lighter">21/09/2023</p></td>
+                <td>
+                  <button class="btn btn-warning text-white py-1 btn-sm">
+                    In prestito
+                  </button>
+                </td>
+                <td>
+                  <button class="btn btn-outline-secondary">
+                    <i class="fa-solid fa-pencil"></i>
+                  </button>
+                  <button class="btn btn-outline-secondary">
+                    <i class="fa-solid fa-trash"></i>
+                  </button>
+                </td>
+              </tr>
+              <!-- LINEA 8 -->
+              <tr>
+                <td><p class="fw-lighter">Il trono di spade</p></td>
+                <td><p class="fw-lighter">-</p></td>
+                <td>
+                  <button class="btn btn-success py-1 btn-sm">
+                    Disponibile
+                  </button>
+                </td>
+                <td>
+                  <button class="btn btn-outline-secondary">
+                    <i class="fa-solid fa-pencil"></i>
+                  </button>
+                  <button class="btn btn-outline-secondary">
+                    <i class="fa-solid fa-trash"></i>
+                  </button>
+                </td>
+              </tr>
+              <!-- LINEA 9 -->
+              <tr>
+                <td><p class="fw-lighter">Il mondo di Sofia</p></td>
+                <td><p class="fw-lighter">-</p></td>
+                <td>
+                  <button class="btn btn-danger py-1 btn-sm">
+                    Non disponibile
+                  </button>
+                </td>
+                <td>
+                  <button class="btn btn-outline-secondary">
+                    <i class="fa-solid fa-pencil"></i>
+                  </button>
+                  <button class="btn btn-outline-secondary">
+                    <i class="fa-solid fa-trash"></i>
+                  </button>
+                </td>
+              </tr>
+              <!-- LINEA 10 -->
+              <tr>
+                <td>
+                  <p class="fw-lighter">
+                    Le cronache di Narnia: il leone, la strega e l'armadio
+                  </p>
+                </td>
+                <td><p class="fw-lighter">25/07/2023</p></td>
+                <td>
+                  <button class="btn btn-warning text-white py-1 btn-sm">
+                    In prestito
+                  </button>
+                </td>
+                <td>
+                  <button class="btn btn-outline-secondary">
+                    <i class="fa-solid fa-pencil"></i>
+                  </button>
+                  <button class="btn btn-outline-secondary">
+                    <i class="fa-solid fa-trash"></i>
+                  </button>
+                </td>
+              </tr>
+              <!-- LINEA 11 -->
+              <tr>
+                <td><p class="fw-lighter">Il piccolo principe</p></td>
+                <td><p class="fw-lighter">-</p></td>
+                <td>
+                  <button class="btn btn-success py-1 btn-sm">
+                    Disponibile
+                  </button>
+                </td>
+                <td>
+                  <button class="btn btn-outline-secondary">
+                    <i class="fa-solid fa-pencil"></i>
+                  </button>
+                  <button class="btn btn-outline-secondary">
+                    <i class="fa-solid fa-trash"></i>
+                  </button>
+                </td>
+              </tr>
+              <!-- LINEA 12 -->
+              <tr>
+                <td><p class="fw-lighter">La storia infinita</p></td>
+                <td><p class="fw-lighter">-</p></td>
+                <td>
+                  <button class="btn btn-success py-1 btn-sm">
+                    Disponibile
+                  </button>
+                </td>
+                <td>
+                  <button class="btn btn-outline-secondary">
+                    <i class="fa-solid fa-pencil"></i>
+                  </button>
+                  <button class="btn btn-outline-secondary">
+                    <i class="fa-solid fa-trash"></i>
+                  </button>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
     <!-- SCRIPT JS BOOTSTRAP -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
